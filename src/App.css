@@ -1,0 +1,113 @@
+.App {
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+nav img {
+  max-width: 100px;
+  padding-left: 35px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 35px;
+}
+
+.main img {
+  width: 50%;
+  margin-bottom: 40px;
+  align-self: center;
+}
+
+.main_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.main_inner h1 {
+  font-size: 64px;
+}
+
+.main_inner p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  padding: 35px;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.card {
+  /* width: 176px; */
+  margin-bottom: 20px;
+}
+
+.card_image {
+  position: relative;
+}
+
+.card_status {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 2px;
+}
+
+.card_content {
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.card_small_info {
+  color: #918e9b;
+  display: flex;
+  gap: 5px;
+}
+
+.card_content h3 {
+  font-weight: normal;
+}
+
+.card_content p {
+  font-weight: bold;
+}
+
+.card_content p span {
+  font-weight: normal;
+}
+
+.card_search {
+  margin-left: 35px;
+  padding: 10px;
+  padding-right: 100px;
+  font-size: 20px;
+  font-weight: normal;
+  border: 1px solid #918e9b;
+  border-radius: 5px;
+}
